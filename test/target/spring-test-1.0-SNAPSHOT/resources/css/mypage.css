@@ -1,0 +1,79 @@
+.mypage_01 {
+
+    width: 1220px;
+    padding: 30px 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+
+}
+
+.mypage_01 ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mypage_01 ul li{
+    padding: 5px 30px;
+}
+
+.mypage_name {
+    color: #3c3c3c;
+    font-size: 24px;
+    padding-top: 15px;
+    margin-right: 100px;
+    font-weight: 600;
+}
+
+.mypage_02 {
+    width: 1220px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.mypage_02 h2{
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.mypage_02 ul{
+
+    margin: 0 auto;
+    width: 1220px;
+
+}
+
+.mypage_02 ul li{
+    margin: 0 auto;
+    text-align: left;
+    width: 500px;
+    padding: 10px 50px;
+
+}
+
+.mypage_02 ul li input{
+    width: 500px;
+    padding: 10px 5px;
+    border: rgb(230,230,230) solid 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.mypage_02 button{
+    width: 500px;
+    background-color: #00c88c;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #00c88c;
+    color: white;
+    margin-top: 50px;
+}

@@ -1,0 +1,143 @@
+.navbar{
+    display: none;
+}
+
+.footer{
+    display: none;
+}
+
+.logo{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin: 10px 80px;
+    transform: translate(-50%,-50%);
+}
+
+.forgetid {
+    position: fixed;
+    text-align: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    height: 480px;
+    border: rgb(230,230,230) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.findid h3{
+    margin-top: 70px;
+    margin-left: 175px;
+    color: #3c3c3c;
+
+}
+
+.forgetid p {
+    color: #3c3c3c;
+    font-weight: 500;
+}
+.inputbox{
+    margin: 40px auto 0px auto;
+    width: 450px;
+
+}
+
+.inputbox input {
+    border: rgb(230,230,230) solid 1px;
+    width: 400px;
+    padding: 10px 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+}
+
+.inputbox button{
+    margin-top: 15px;
+    width: 422px;
+    padding: 7px 0px;
+    border: none;
+    background-color: #00c88c;
+    color: white;
+    border-radius: 5px;
+}
+
+.findid{
+
+    display: block;
+}
+
+.findIndex{
+    display: none;
+}
+
+.resetpw{
+    display: none;
+}
+
+.findIndex{
+    width: 100%;
+    text-align: left;
+}
+
+.findIndex h3{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.id_box{
+    text-align: center;
+    width: 500px;
+    height: auto;
+    margin: 40px auto 0px auto;
+    padding: 30px 0px;
+    background-color: #f9fafb;
+    border-radius: 5px;
+}
+
+.id_box p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.id_box p:last-child{
+    padding-top: 5px;
+    font-size: 14px;
+    color: #707070;
+    font-weight: 300;
+}
+
+.id_box_button{
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+.id_box_button button{
+    width: 240px;
+    margin-top: 40px;
+    padding: 7px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00c88c;
+    color: white;
+
+}
+
+.id_box_button button:first-child{
+    margin: 0 auto;
+    width: 240px;
+    margin-right: 14px;
+    border: #00c88c solid 1px;
+    background-color: white;
+    color: #00c88c;
+}
+
+.resetpw{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.resetpw h3{
+    margin-top: 70px;
+}

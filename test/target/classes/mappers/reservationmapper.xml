@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reservationmapper">
+
+    <insert id="reservation">
+        INSERT INTO reservation
+        (user_no,name,id,car_listno,car_name,car_location)
+        VALUES (#{user_no},#{name},#{id},#{car_listno},#{car_name},#{car_location})
+
+    </insert>
+
+
+</mapper>

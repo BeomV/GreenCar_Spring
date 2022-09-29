@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="membermapper">
+    <!-- 회원가입 -->
+    <insert id="register">
+        INSERT INTO member (name,id,pw,userEmail,userTel)
+        VALUES (#{name},#{id},#{pw},#{userEmail},#{userTel})
+    </insert>
+
+
+    <select id="login" resultType="org.test.domain.memberVO">
+        SELECT id,pw,name,userTel,userEmail,userlocation,user_no FROM member
+        WHERE id = #{id} AND pw = #{pw}
+    </select>
+
+    <update id="mypage">
+        UPDATE member set
+        pw = #{pw},
+        userEmail = #{userEmail}
+        where name = #{name} and userTel = #{userTel}
+
+    </update>
+
+
+</mapper>
